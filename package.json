@@ -8,8 +8,12 @@
     "deploy": "twilio-run deploy"
   },
   "dependencies": {
+    "@twilio/runtime-handler": "2.0.0",
+    "groq-sdk": "^0.3.3",
+    "lodash": "^4.17.21",
+    "nvm": "^0.0.4",
     "twilio": "5.0.3",
-    "@twilio/runtime-handler": "2.0.0"
+    "xmldom": "^0.6.0"
   },
   "devDependencies": {
     "twilio-run": "^4.0.0"
